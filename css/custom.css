@@ -1,0 +1,754 @@
+/*
+MES CSS
+*/
+
+
+/*---------------------------------------------------------------------------------------------- GENERAL*/
+
+
+.section {
+	padding : 20px;
+}
+.bold{
+	font-weight : bold;
+}
+
+.ombre{
+		display : none;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.ombre{
+		display : inline-block;
+		height : 5px;
+		width : 110%;
+		background-color : #000000;
+		opacity : 0.3;
+		margin : -25px;
+	}
+	#nostalgy .ombre{
+		margin : -5px;
+	}
+}
+
+
+div.centrage {
+	text-align: center;
+}
+
+.centrer{
+text-align : center;
+}
+
+
+.pourMobile{
+	display : block;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.pourMobile{
+		display : none;
+	}
+}
+
+.pourDesktop{
+	display : none;
+}
+
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.pourDesktop{
+		display : block;
+	}
+}
+
+/* PRELOADER */
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #fff url('../images/preload.gif') no-repeat center center; opacity : 0.5; }
+
+/*---------------------------------------------------------------------------------------------- HEADER ET NAV*/
+
+.site-name {
+	font-size: 25px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.site-name {
+		font-size: 36px;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+}
+
+.site-slogan {
+	font-size: 11px;
+}
+
+.nav img {
+	text-align: center;
+	float : none;
+	display : inline-block;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------- BLOC ACCUEIL*/
+
+#accueil {
+width: 100%;
+height: 0%;
+min-height: 100%;
+color: #fff;
+background: url(../images/bg-pictos-para.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+.imgCube{
+	position:absolute;
+	margin-top : 5%;
+}
+
+.moiMob img{
+	display : inline;
+	margin-top: -20%;
+}
+
+/* Le texte central d'accueil */
+.lead {
+  margin-bottom: auto;
+  margin-top: 5%;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align : center;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.lead {
+	  margin-bottom: auto;
+	  margin-top: 15%;
+	  font-size: 1.2em;
+	  font-weight: 300;
+	  line-height: 1.4;
+	  text-align : center;
+	}
+}
+  
+/* Videos en fond des divs */
+.one {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid white;
+    margin-top: 65%;
+	float : left;
+    position: relative;
+	box-shadow: 5px 5px 0px #c89203;
+}
+
+
+.two{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid white;
+	margin-top: 65%;
+	float : right;
+    position: relative;
+	box-shadow: 5px 5px 0px #333c95;
+}
+
+
+.video-background { /* class name used in javascript too */
+    width: 100%; /* width needs to be set to 100% */
+    height: 100%; /* height needs to be set to 100% */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 20;
+}
+
+
+/*---------------------------------------------------------------------------------------------- BLOC CREA UNE*/
+
+#creaUne {
+	background: url(../images/bg-creaune.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+}
+
+
+.blocCreaUne {
+
+}
+
+.blocCreaUne h1 {
+	color: #ffffff;
+}
+
+
+.blocCreaUne h2{
+	color : #ffffff;
+	text-align : center;
+}
+
+.blocCreaUne img{
+	display: inline;
+}
+
+
+/*Les elements du cadre de présentation de la crea à la UNE*/
+
+.projUne{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cadreUne{
+
+	color : #000000;
+	padding :20px;
+	margin-bottom : 0px;
+	text-align : justify;
+}
+
+.cadreUne a{
+	color : #000000;
+}
+.cadreUne h2{
+	color : #000000;
+	text-transform : uppercase;
+}
+.cadreUne h3{
+	color : #3a0c87;
+	text-transform : uppercase;
+}
+
+.cadreUne img{
+	float: left;
+}
+
+.technos {
+	padding : 10px;
+
+}
+.technos img {
+	display: inline-block;
+	margin : 3px;
+}
+
+/*Les elements du carousel te de la crea à la UNE*/
+
+.cadreCarousel{
+	color : #000000;
+	padding-top : 10px;
+}
+
+.carousel {
+	margin-top: 10px;
+	margin-bottom: 26px;
+}
+
+.carousel-inner {
+
+}
+.carousel-inner a {
+    background-color : none;
+}
+.carousel-control.left {
+    background-image: none;
+    filter: none;
+}
+.carousel-control.right {
+    background-image: none;
+    filter: none;
+}
+
+.carousel-control {
+	width: 12%;
+	top: 100px;
+	bottom: 80px;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+		.carousel-control {
+			width: 12%;
+			top: 173px;
+			bottom: 80px;
+		}
+	}
+
+
+.carousel-control.left {
+  background-image: none;
+  filter: none;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+  filter: none;
+}
+/*Ronds de pagination du carousel du PORTFOLIO ET CREA UNE*/
+.carousel-indicators {
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #3c47b5;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  background-color: #3c47b5;
+  border: 0px solid #3c47b5;
+}
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 0;
+    padding-top: 5%;
+    padding-bottom: 20px;
+    color: #3a0c87;
+    text-align: center;
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+/*---------------------------------------------------------------------------------------------- BLOC INTERMEDE "MAIS ENCORE ..."*/
+
+.blocIntermede{
+	background-color : #FFBA00;
+	padding-bottom : 10px;
+}
+.blocIntermede h1{
+	color : #ffffff;
+	font-size : 2.5em;
+}
+.blocIntermede img{
+	display: inline;
+}
+
+
+/*---------------------------------------------------------------------------------------------- BLOC FILTRES CATEGORIES*/
+
+}.boutWeb, .boutPrint, .boutLogos, .boutVideo, .boutBranding, .boutAll {
+	color : #ffffff;
+}
+.boutWeb a {
+	background-color : #c69000;
+}
+.boutPrint a {
+	background-color : #ffba00;
+}
+.boutLogos a {
+	background-color : #ffc939;
+}
+.boutVideo a {
+	background-color : #4c10ae;
+}
+.boutBranding a {
+	background-color : #8057c2;
+}
+.boutAll a {
+	background-color : #6535b3;
+}
+
+.nav-pills li a{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align : center;
+	color : #fff;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.nav-pills li a{
+		font-size: 1.5em;
+		text-transform: uppercase;
+		color: #fff;
+		text-align : center;
+	}
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #3a0c87;
+	color: #ffffff;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    text-decoration: none;
+    background-color: #5d67c4;
+	color: #ffffff;
+	border : 3px solid;
+}
+.text-center.filters .nav-pills > li {
+    display: inline;
+	text-align : center;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.text-center.filters .nav-pills > li {
+		display: inline-block;
+	}
+}
+
+
+
+/*---------------------------------------------------------------------------------------------- BLOC PORTFOLIO*/
+
+.blocPortfolio{
+	background-image : url(../images/motif-carbon.png);
+	background-repeat : repeat;
+}
+
+
+
+
+/*----------------Les elements des popup MODAL du portfolio*/
+.divGris{
+	background-color : #f1f2f2;
+	border : 1px solid #dcddde;
+	min-height : 0px;
+	margin-bottom : 10px;
+	padding-bottom : 20px;
+	
+}
+
+
+.carousel-control {
+	width: 12%;
+	top: 87%;
+	bottom: 0px;
+}
+
+.presModal{
+	background-color : #fff;
+	color : #000000;
+	padding :0px;
+	margin : 10px;
+	border : #ffffff 2px solid;
+	box-shadow: 8px 8px 0px #000000;
+	text-align : justify;
+	
+}
+
+.modal-body{
+	padding : 15px;
+}
+
+.presModal h2{
+	color : #3a0c87;
+}
+.presModal h3{
+	color : #3a0c87;
+	font-size : 1.1em;
+	text-transform : uppercase;
+	font-weight : bold;
+}
+.modal-dialog {
+    width: 95%;
+    margin: 30px auto;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+.modal-dialog {
+    width: 75%;
+    margin: 30px auto;
+}
+}
+.date{
+	color : #3a0c87;
+	font-size : 1em;
+	font-weight : bold;
+}
+
+.presModal .btn-default {
+    color: #ffffff;
+	background-color : #2d076a;
+    border: 1px solid #cccccc;
+}
+.modal-header {
+    background-color: #5d67c4;
+    color: #ffffff;
+}
+
+.modal-header h4{
+	font-size : 1.5em;
+}
+
+.modal-header img {
+    display : inline;
+}
+
+
+.modal-footer {
+    padding: 0px;
+	margin : 12px;
+    text-align: right;
+    border-top: 0px solid;
+	background-color : #f1f2ff;
+}
+
+
+.modal-footer h3 {
+	text-align : left;
+	margin-left : 15px;
+}
+.modal-footer p {
+	text-align : left;
+	margin-left : 15px;
+}
+.modal-footer button {
+    padding: 5px;
+    float: right;
+}
+.bgBleu{
+	background-color : #f1f2ff;
+	box-shadow : 8px 8px 3px #d1d1d1;
+	padding : 0px;
+}
+.bgBleu img{
+	margin : 2px;
+}
+
+
+.alignBt{
+	text-align : right;
+	padding : 5px;
+}
+
+.btnClose {
+	padding: 0px 0px;
+	font-size: 14px;
+	line-height: 1;
+	min-width: 100px;
+	min-height: 100px;
+	text-align: center;
+	border-radius: 0;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.btnClose-default {
+	color: #ffffff;
+	background-color: #5d67c4; 
+	border: 1px solid #cccccc;
+}
+.btnClose-default:hover {
+	color: #ffffff;
+	background-color: #3c47b5; 
+	border-color: #339BEB;
+}
+.video-conteneur {
+position:relative;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+}
+ 
+.video-conteneur iframe,
+.video-conteneur object,
+.video-conteneur embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+/*---------------------------------------------------------------------------------------------- BLOC NOSTALGY*/
+#nostalgy {
+	background: url(../images/bg-80-para.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#nostalgy p {
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align : center;
+  color : #ffffff;
+  padding-top : 30px;
+}
+#nostalgy img {
+	display: inline;
+}
+
+/*Les elements des popup MODAL NOSTALGY*/
+
+.modal-header-nostalgy {
+    background-image: url(../images/bg-80.jpg);
+	background-repeat: repeat;
+}
+.modal-footer-nostalgy {
+    background-image: url(../images/bg-80.jpg);
+	background-repeat: repeat;
+	padding: 0px;
+	margin : 12px;
+    text-align: right;
+    border-top: 0px solid;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.modal-footer-nostalgy {
+		margin: -8px;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------- BLOC QUI SUIS JE*/
+
+
+#qui {
+	background: url(../images/bg-qui-para.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.blocQui{
+		padding : 20px;
+		text-align : justify;
+}
+
+.blocQui h1{
+	color : #FFBA00;
+	font-size : 2.6em;
+	margin-top : 10px;
+	margin-bottom: 10px;
+}
+
+.blocQui h2{
+		font-size : 1.1em;
+		text-align : center;
+		margin-bottom : 10px;
+		color : #7c53be;
+		font-weight : bold;
+}
+
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.blocQui h2{
+		font-size : 1.3em;	
+	}
+}
+
+
+
+.panel-group {
+    margin-bottom: 0px;
+}
+.blocQui img{
+	display: inline;
+}
+.imgEvo{
+	float : none;
+	padding : 5px;
+}
+/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.imgEvo{
+		float : left;
+		padding : 0px;
+	}
+}
+.imgEvo img{
+	max-width : 100%;
+	height : auto;
+}
+
+/*---------------------------------------------------------------------------------------------- BLOC CONTACT*/
+
+#contact {
+	color : #ffffff;
+	background-color : #8057c2;
+}
+#contact h1{
+	color : #ffffff;
+	padding-top : 10px;
+}
+#contact .list-icons li {
+	padding: 0 0 0px 0;
+}
+
+.bgForm{
+	background-color : #ffba00;
+	padding : 20px;
+}
+#contact img{
+	display: inline;
+}
+
+/*---------------------------------------------------------------------------------------------- BLOC FOOTER BAS DE PAGE*/
+
+.subfooter {
+	background-color: #000000;
+	padding: 5px 0;
+	font-size : 1em;
+}
+.subfooter img{
+	display: inline;
+}
+.scrollTop {
+	display : block;
+}
+	/* MD - Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+	.subfooter {
+		background-color: #000000;
+		border-top: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+		padding: 40px 0;
+		color : #ffffff;
+	}
+	.scrollTop {
+		display : none;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------- ADMIN*/
+
+.pageAdmin{
+	background-image : url(../images/motif-carbon.png);
+	background-repeat : repeat;
+	min-height : 800px;
+	padding-top : 200px;
+	color : #fff;
+}
