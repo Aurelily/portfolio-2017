@@ -3,6 +3,7 @@ OLD PORTFOLIO 2017 🏞 🎬
   
 📆 Build in : 2017   
 🖥 Type : Graphic design and dev old portfolio 
+🔗 You can see it here :  https://design-dev.net/portfolio-2017/   
 
 
 -----------------
@@ -39,15 +40,3 @@ OLD PORTFOLIO 2017 🏞 🎬
 * Media queries (responsive design)
 * CSS3
 * Bootstrap
-
-💻 Installation
----
-
-
-1️. Just clone this repository in a live server
-
-`git clone https://github.com/Aurelily/portfolio-2017.git`
-
-2. Or just watch the website online here :
-   
-https://www.design-dev.net/portfolio-2017/
