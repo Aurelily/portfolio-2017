@@ -26,6 +26,8 @@ OLD PORTFOLIO 2017 🏞 🎬
 
 🚀 Tasks performed
 ---
+* All the pictograms and illustrations
+* Graphical charter
 * Complete integration, responsive design frontend
 
   
